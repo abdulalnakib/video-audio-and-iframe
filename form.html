@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food form</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h2>Fil up the form</h2>
+        <form>
+            <label for="name">Your Name <input type="text" name="" id="name" placeholder="Your Name"></label>
+            <label for="email">Your Email <input type="text" name="email" id="email" placeholder="Your Email"></label>
+            <label for="Phone">Your phone <input type="text" name="phone" id="phone" placeholder="Your Phone"></label>
+            <fieldset>
+                <legend>
+                    Pick one Burger
+                </legend>
+                <label for="Meat">
+                    <input type="radio" name="meat" id="meat">Meat
+                    <input type="radio" name="meat" id="chicken">Chicken
+                    <input type="radio" name="meat" id="vegie">Vegie
+
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>PIck one or more Burger</legend>
+                <input type="checkbox" name="meat" id="meat">Meat
+                <input type="checkbox" name="chicken" id="chicken">Chicken
+                <input type="checkbox" name="vegie" id="vegie">Vegie
+            </fieldset>
+            <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="10" rows="5"></textarea>
+            </fieldset>
+            <input type="reset" value="reset">
+            <br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </section>
+
+</body>
+
+</html>
